@@ -1,0 +1,27 @@
+.list {
+  display: flex;
+
+  &:nth-child(2n) {
+    background-color: #fafafa;
+  }
+
+  p {
+    padding: 3px 5px;
+  }
+
+  &--number {
+    width: 10%;
+  }
+
+  &--name {
+    width: 10%;
+  }
+
+  &--address {
+    width: 30%;
+  }
+
+  &--mail {
+    width: 50%;
+  }
+}

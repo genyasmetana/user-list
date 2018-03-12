@@ -1,0 +1,8 @@
+<ul>
+  <li *ngFor="let user of _users; let i = index" class="list">
+    <p class="list--number">{{i + 1}} </p>
+    <p class="list--name"> {{user.first}}</p>
+    <p class="list--address"> {{user.address}}</p>
+    <p class="list--mail"> {{user.email}}</p>
+  </li>
+</ul>
